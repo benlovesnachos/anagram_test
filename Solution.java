@@ -8,6 +8,8 @@ public class Solution
 {
 
     private static List<Character> makeListOfCharacters(String baseString){
+      // The conversion from a string to a List<Character> required the for
+      // loop.  Attempts were made to make this a simple one-liner to no avail.
       List<Character> charList = new ArrayList<>();
       for (char s :baseString.toCharArray()){
         charList.add(s);
